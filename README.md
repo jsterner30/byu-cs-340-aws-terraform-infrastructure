@@ -9,3 +9,5 @@ An api gateway with 14 endpoints, with CORS enabled and the necessary method and
 2 SQS queues
 2 lambdas to connect to the two SQS queues
 A public S3 bucket for user images
+
+The deploy.sh file packages the lambdas and then terraform applies the changes to deploy the resources
